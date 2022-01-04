@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Chase's Links</title>
+    <script type="text/javascript">
+      const redirects = {
+        "qrme": "https://apps.apple.com/us/app/qr-me-contact/id1412627381#?platform=iphone",
+        "mentee": "https://docs.google.com/forms/d/e/1FAIpQLScZMH60toqUHfxUUehGBjYv6ogvkNT9RFoNNSJb26i8o3qc0w/viewform?usp=sf_link",
+        "meet": "https://calendly.com/chaseca/meet",
+        "zoom": "https://uci.zoom.us/my/chaseca",
+      }
+      
+      const path = window.location.pathname.toLowerCase();
+
+      const redirect = redirects[path];
+      if (redirect) {
+        window.location.replace(redirect);
+      } else {
+        window.location.replace("http://chase.link");
+      }
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
