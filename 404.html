@@ -13,7 +13,7 @@
         "instagram": "https://instagram.com/chasing_chase99"
       }
       
-      const path = window.location.pathname.toLowerCase();
+      const path = window.location.pathname.substring(1).toLowerCase();
 
       const redirect = redirects[path];
       if (redirect) {
