@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    font-family: monospace;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    margin: 0 auto;
+}
+
+ul {
+    margin: 0 auto;
+}
+
+li {
+    margin: 5px 0;
+}
+
+footer {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.profile-pic {
+    border-radius: 30%;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    margin: 0;
+    padding: 10px;
+}
